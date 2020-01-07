@@ -42,7 +42,3 @@ class PyMailer:
 
         return msg
 
-
-if __name__ == '__main__':
-    mailer = PyMailer(yaml_file='gmail.yml')
-    mailer.send('abe12@mccc.jp', 'テストタイトル', '夏草や兵どもが夢の跡')
