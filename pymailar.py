@@ -16,6 +16,7 @@ class PyMailer:
             # yaml fileを指定
             self.__account = yaml.load(open(yaml_file), Loader=yaml.SafeLoader)
 
+
     def send(self, to_addr, subject, body):
         ## -----*----- メール送信 -----*----- ##
         # メッセージオブジェクトを生成
